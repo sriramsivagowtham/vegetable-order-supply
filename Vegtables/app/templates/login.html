@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR vegtable</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}?v=2">
+</head>
+<body>
+    {% block content %}
+    <div class="all">
+        <h2>MR Vegetable</h2>
+        <h2 id="data"></h2>
+         
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type='submit'>Login</button>
+        </form>
+        <h4>If you not Register click the link</h4>
+        <a href="{% url 'app:index' %}">Register</a>
+    </div>
+    {% endblock %} 
+        <!-- <script src="{% static 'js/order.js' %}"></script> -->
+
+</body>
+</html>

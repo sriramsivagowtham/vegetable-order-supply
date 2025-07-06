@@ -1,0 +1,16 @@
+{% extends 'veg/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8">
+            <h1 class="mb-4">{{ post.name }}</h1>
+            <p class="text-muted">Posted on {{ post.MFD }}</p>
+            {% if post.image %}
+              <img src="{{ post.image.url }}" class="img-fluid mb-4" alt="{{ post.name }}">
+            {% endif %}
+            <p>{{ post.content }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

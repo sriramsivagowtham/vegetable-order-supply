@@ -1,0 +1,55 @@
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #816969c9; 
+}
+
+
+.box {
+    width: 1000px;
+    height: 1000px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: colors;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes colors {
+    0% {
+        background-color: aqua;
+        width: 300px;
+        height: 300px;
+        transform: scale(1);
+        margin: 150px;
+    }
+    50% {
+        background-color: green;
+        width: 500px;
+        height: 500px;
+        transform: scale(1.2);
+        margin: 150px;
+    }
+    100% {
+        background-color: rgb(8, 86, 231);
+        width: 500px;
+        height: 500px;
+        transform: scale(1);
+        margin: 150px;
+    }
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
