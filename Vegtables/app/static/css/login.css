@@ -1,0 +1,66 @@
+ /* body{
+    background-image: url("../img/firechili.png ");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+a{
+    border: 5px solid black;
+    padding: 5px;
+    background-color: royalblue;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.all{
+    
+    background-color: rgba(0, 0, 0, .5);
+    margin: 100px auto ;
+    text-align: justify;
+    padding: 20px 200px 20px;
+    color: beige;
+    font-size: 25px;
+    border-radius: 10px;
+
+
+}
+button{ 
+    background-color: rgb(42, 165, 149);
+    font-size: 14px;
+    margin: top 5px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 1px solid chocolate;
+}
+h2{
+    text-align:center;
+    color:rgb(228, 228, 228);
+}
+.user label{
+    display: block;
+}
+.user input{
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid greenyellow;
+    box-shadow: 5px 5px 2px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+input:focus{
+    background-color: rgb(101, 175, 175);
+}
+/* .btn{
+    
+    color: aliceblue;
+
+} */
+/* .gender input{
+    accent-color: rgb(211, 151, 21);
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+} */
+

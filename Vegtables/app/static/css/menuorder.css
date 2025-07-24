@@ -1,0 +1,19 @@
+.table{
+    background-color: rgb(223, 241, 218);
+    
+}
+h2{
+    text-align: center;
+}
+.tableform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: top-30px;
+}
+.but_ton{
+    background-color: rgba(103, 187, 159, 0.836);
+    
+}

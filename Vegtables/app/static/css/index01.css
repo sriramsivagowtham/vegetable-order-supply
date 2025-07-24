@@ -1,0 +1,119 @@
+ /* body{
+    background-image: url("../img/chili.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.all{
+    background-size: 100%;
+    background-position: center;
+    margin: 100px auto ;
+    text-align: justify;
+    padding: 20px 200px 20px;
+    color: beige;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+button{
+    background-color: rgb(16, 221, 221);
+    text-shadow: 10px;
+}
+h2{
+    text-align:center;
+    color:rgb(241, 203, 31);
+}
+.user label{
+    display: block;
+}
+
+a{
+    border: 5px solid black;
+    padding: 5px;
+    background-color: royalblue;
+    color: whitesmoke;
+    text-decoration: none;
+}
+input:focus{
+    background-color: rgb(101, 175, 175);
+}
+button{
+
+    
+    background-color: rgb(42, 165, 149);
+    font-size: 17px;
+    margin: top 5px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 1px solid chocolate;
+    color: aliceblue;
+
+   
+
+
+}
+.gender input{
+    accent-color: rgb(211, 151, 21);
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+ */
+ body,
+      html {
+      	margin: 0;
+      	padding: 0;
+      	height: 100%;
+      	background-image: url("../img/register.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+      }
+      .user_card {
+      	width: 350px;
+      	margin-top: auto;
+      	margin-bottom: auto;
+      	background: #69ee7aff;
+      	position: relative;
+      	display: flex;
+      	justify-content: center;
+      	flex-direction: column;
+      	padding: 10px;
+      	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      	border-radius: 5px;
+
+      }
+
+      .form_container {
+      	margin-top: 20px;
+      }
+
+      .form-title{
+      	color: #fff;
+      }
+      .login_btn {
+      	width: 100%;
+      	background: #33ccff !important;
+      	color: white !important;
+      }
+      .login_btn:focus {
+      	box-shadow: none !important;
+      	outline: 0px !important;
+      }
+      .login_container {
+      	padding: 0 2rem;
+      }
+      .input-group-text {
+      	background: #f7ba5b !important;
+      	color: white !important;
+      	border: 0 !important;
+      	border-radius: 0.25rem 0 0 0.25rem !important;
+      }
+      .input_user,
+      .input_pass:focus {
+      	box-shadow: none !important;
+      	outline: 0px !important;
+      }

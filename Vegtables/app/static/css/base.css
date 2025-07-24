@@ -1,0 +1,8 @@
+.nav-link-custom{
+    transition: color 0.2s, border-bottom 0.2s;
+}
+.nav-link-custom:hover{
+    text-decoration: underline;
+    border-bottom:1px solid green;
+    color: 2;
+}

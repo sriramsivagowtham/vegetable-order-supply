@@ -1,0 +1,51 @@
+/* Centers the entire page vertically and horizontally */
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #abd6dbc9;
+}
+.word {
+    text-align: center;
+}
+
+.word h3{
+    font-size: 22px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: colors 3s forwards;
+}
+
+/* Animation keyframes */
+@keyframes colors {
+    0% {
+        background-color: aqua;
+        color: rgb(245, 136, 4);
+        width: 400px;
+        height: 400px;
+        transform: scale(1);
+    }
+    50% {
+        background-color: rgb(15, 189, 29);
+        color: rgb(232, 241, 232);
+        width: 450px;
+        height: 450px;
+        transform: scale(1.2);
+    }
+    100% {
+        background-color: rgba(231, 8, 8, 1);
+        color: white;
+        width: 420px;
+        height: 420px;
+        transform: scale(1.5);
+    }
+}

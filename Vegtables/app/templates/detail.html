@@ -1,0 +1,23 @@
+{% extends 'veg/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid bg-success text-white">
+    <div class="row">
+        <div class="col-lg-8">
+            <h3 class="mb-4 text-center text-white">VEGETABLE NAME : {{ post.name|upper }}</h3>
+            <p class="text-white">Posted on {{ post.MFD }}</p>
+            <h3 class="mb-2 text-white">{{ post.name }}:(₹){{ post.price }}</h3>
+            <!-- {% if post.image %}
+              <img src="{{ post.image.url }}" class="col-6 img-fluid mb-4" alt="{{ post.name }}">
+            {% endif %}
+            <p class="col-6 text-white">{{ post.content }}</p> -->
+        </div>
+    </div>
+</div>
+<div class="row bg-success">
+     {% if post.image %}
+              <img src="{{ post.image.url }}" class="col-6 img-fluid mb-4" alt="{{ post.name }}">
+     {% endif %}
+            <p class="col-6 text-white">{{ post.content }}</p>
+</div>
+{% endblock %}
